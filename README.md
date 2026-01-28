@@ -46,3 +46,11 @@ Then open `rag_notebook.ipynb` and select kernel `Python (rag-venv)`.
 - Split documents using recursive chunking strategy
 - Preserved metadata for traceability
 - Validated chunk size distribution
+
+## Phase 4: Embedding Generation ✅
+
+- Initialized HuggingFace Sentence Transformer (`all-MiniLM-L6-v2`)
+- Converted all text chunks into dense vectors
+- Normalized embeddings for cosine similarity
+- Verified embedding dimensions and consistency
+- Performed sanity checks on sample vectors
