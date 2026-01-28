@@ -61,3 +61,10 @@ Then open `rag_notebook.ipynb` and select kernel `Python (rag-venv)`.
 - Created serverless index (`aws`, `us-east-1`)
 - Uploaded vector embeddings with metadata
 - Verified index statistics and vector count
+
+## Phase 6: Semantic Retrieval Layer ✅
+
+- Implemented query embedding using Sentence Transformers
+- Implemented semantic similarity search using Pinecone
+- Retrieved top-k relevant chunks with metadata
+- Verified and inspected retrieved context
