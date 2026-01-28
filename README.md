@@ -38,3 +38,11 @@ Then open `rag_notebook.ipynb` and select kernel `Python (rag-venv)`.
 - Preserved metadata (source file and page number)
 - Validated text quality and page counts
 - Computed dataset statistics
+
+## Phase 3: Text Normalization & Chunking ✅
+
+- Normalized extracted text (whitespace & formatting)
+- Removed noise from PDF parsing artifacts
+- Split documents using recursive chunking strategy
+- Preserved metadata for traceability
+- Validated chunk size distribution
