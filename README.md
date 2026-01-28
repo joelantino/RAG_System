@@ -30,3 +30,11 @@ Then open `rag_notebook.ipynb` and select kernel `Python (rag-venv)`.
 
 > [!NOTE]
 > API keys are required in a `.env` file (not committed).
+
+## Phase 2: Document Ingestion & Text Extraction ✅
+
+- Loaded PDFs from `data/pdfs/`
+- Extracted page-level text using LangChain
+- Preserved metadata (source file and page number)
+- Validated text quality and page counts
+- Computed dataset statistics
