@@ -77,3 +77,10 @@ Then open `rag_notebook.ipynb` and select kernel `Python (rag-venv)`.
   Query → Retrieve → Build Context → Generate Answer
 - Added interactive user Q&A mode
 - Verified answers are grounded in retrieved documents
+
+## Phase 8: Evaluation & NotebookLM Comparison ✅
+
+- Ran same query on NotebookLM and Custom RAG
+- Compared outputs side-by-side
+- Analyzed coverage, missing points, and differences
+- Documented qualitative evaluation and verdict
