@@ -54,3 +54,10 @@ Then open `rag_notebook.ipynb` and select kernel `Python (rag-venv)`.
 - Normalized embeddings for cosine similarity
 - Verified embedding dimensions and consistency
 - Performed sanity checks on sample vectors
+
+## Phase 5: Vector Database (Pinecone Serverless) ✅
+
+- Configured Pinecone Serverless client
+- Created serverless index (`aws`, `us-east-1`)
+- Uploaded vector embeddings with metadata
+- Verified index statistics and vector count
