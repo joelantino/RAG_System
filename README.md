@@ -68,3 +68,12 @@ Then open `rag_notebook.ipynb` and select kernel `Python (rag-venv)`.
 - Implemented semantic similarity search using Pinecone
 - Retrieved top-k relevant chunks with metadata
 - Verified and inspected retrieved context
+
+## Phase 7: RAG Answer Generation (Gemini Flash) ✅
+
+- Integrated Gemini 1.5 Flash as generation model
+- Implemented strict grounded prompting to prevent hallucination
+- Built end-to-end RAG pipeline:
+  Query → Retrieve → Build Context → Generate Answer
+- Added interactive user Q&A mode
+- Verified answers are grounded in retrieved documents
